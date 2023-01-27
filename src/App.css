@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes h1{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border: 1px solid #f0eeee;
+  border-radius: 0.5rem;
+  width: 40vw;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+header button {
+  text-align: center;
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+
+}
+
+header button strong {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.new-task {
+  width: 80%;
+  height: 3.3rem;
+  font-size: 18px;
+}
+
+.completed {
+  text-decoration: line-through 2px;
+}
+
+.things-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.thing-card {
+  border-radius: 0.5rem;
+  padding: 0 0 0 2rem;
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #e2e1e1;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  
+}
+
+.thing-card div {
+  height: 100%;
+}
+
+.thing-card button {
+  height: 100%;
+  border-radius: 0;
+}
+
+.thing-card button:nth-child(1) {
+  background-color: rgb(3, 167, 3);
+}
+
+.thing-card button:nth-child(2) {
+  background-color: rgb(252, 27, 27);
+}
